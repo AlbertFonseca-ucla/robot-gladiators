@@ -7,13 +7,10 @@ var enemyNames = ["Roborto", "Amy Android", "Robo Trumble"];
 var enemyHealth = 50;
 var enemyAttack = 12;
 
-// console.log(playerName, playerAttack, playerHealth);
-
-
-// Game States
-// "WIN" - PLayer robot has defeated all enemy-robots
-//     * Fight all enemy-robots
-// "LOSE" - PLayer robot's health is zero or less
+// console.log(enemyNames);
+// console.log(enemyNames.length);
+// console.log(enemyNames[0]);
+// console.log(enemyNames[3]);
 
 // Fight Function
 var fight = function (enemyName) {
