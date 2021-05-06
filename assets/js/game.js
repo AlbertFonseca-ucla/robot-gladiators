@@ -96,7 +96,8 @@ var startGame = function () {
                     shop();
                 }
             }
-        } else {
+        }
+        else {
             window.alert("You have lost your robot in battle! Game Over!");
             break;
         }
@@ -107,7 +108,9 @@ var startGame = function () {
 
 // function to end the entire game
 var endGame = function () {
-    // if player is still alive, player wins!
+    window.alert("The gane has now ended. Let's see how you did!");
+
+    // if player is still alive, player wins!    
     if (playerHealth > 0) {
         window.alert("Great job, you've survived the game! You now have a score of " + playerMoney + " .");
     }
